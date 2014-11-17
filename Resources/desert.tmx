@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="desert.tsx"/>
+ <layer name="Ground" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyTY2BgkBtmWA+LmPwgcBe1scYgtYfWYW0wCMJ+sMXRYIqf4RCX+OKNnDjVH0C/qA+C8BxKcU8sHkz5iBI8WNMHJXiwlLsAfd9G+g==
+  </data>
+ </layer>
+ <layer name="复制 Ground" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DwAEYgZiKAmWlgLycQcxHA3DSwVxCIhQhgYRrYS00wGmdDL85oBUbTwmhawAcIpQ1aYUJpg1YYAEV1BO0=
+  </data>
+ </layer>
+ <objectgroup name="obj0">
+  <object name="brick0" x="464" y="176" width="288" height="64"/>
+  <object name="brick1" x="112" y="304" width="288" height="64"/>
+  <object name="brick1" x="464" y="432" width="288" height="64"/>
+  <object name="ground" x="0" y="592" width="960" height="48"/>
+ </objectgroup>
+</map>
